@@ -1,4 +1,3 @@
-
 ![Logo](https://download.logo.wine/logo/R_(programming_language)/R_(programming_language)-Logo.wine.png)
 
 
@@ -37,3 +36,27 @@ Installing R on MacOS X is very similar to installing R on Window OS. The differ
 Some basic vocabulary and concepts we'll use later on. If you already have some programming experience, you can probably skim this section.
 
 # Functions and Arguments
+There are plenty of helpful built-in functions in R used for various purposes. Some of the most popular ones are:
+
+1. min(), max(), mean(), median() – return the minimum / maximum / mean / median value of a numeric vector, correspondingly
+2. sum() – returns the sum of a numeric vector
+3. range() – returns the minimum and maximum values of a numeric vector
+4. abs() – returns the absulute value of a number
+5. str() – shows the structure of an R object
+6. print() – displays an R object on the console
+7. ncol() – returns the number of columns of a matrix or a dataframe
+8. length() – returns the number of items in an R object (a vector, a list, etc.)
+9. nchar() – returns the number of characters in a character object
+10. sort() – sorts a vector in ascending or descending (decreasing=TRUE) order
+11. exists() – returns TRUE or FALSE depending on whether or not a variable is defined in the R environment
+
+A function is like a verb; it tells the coumputer to do something. What that "something" is depends on the function. And an argument is information that the function needs in order to run
+
+For example :
+
+```bash
+print("Welcome to R!")
+```
+The function above, tells R to print out whatever was passed to it, the argument is inside the parantheses.
+
+You can think of a functions like verbs, and arugments nouns. Just like verbs, not all functions need arguments ("I smiled"), and some functions need more than one ("I put the flowers in the vase").
