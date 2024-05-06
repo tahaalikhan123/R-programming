@@ -261,3 +261,5 @@ These snippets should give you a starting point for implementing these models in
 8. You can keep certain lines of code from running but putting a hashtag/pound sign (#) in front of them to turn them into comments. This is called "commenting out" code, and it can be really helpful if you're trying to figure out which lines are generating which errors.
 9. Once you start typing a part of R code, like the name of a variable or a function, you can complete words in your code automatically by pressing the TAB key. If there's more than one valid completion, a list of possible completions will drop down. This is really handy when you want to see all your geom options, for example.
 10. Read other people's R code. I've learned a lot of handy tips over the years from seeing how other people do things. On Kaggle, you can find R code by going to the kernels page and filtering for kernels written in R.
+
+# This is the end of documentation, i will be adding some repos that is my own work :)
